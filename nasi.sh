@@ -13,16 +13,20 @@ After=network.target
 
 [Service]
 WorkingDirectory=/root/$REPO_DIR
-ExecStart=python3.8 itil.py 0.0.0.0 meki
+# Ganti baris di bawah ini dengan path ke file eksekusi yang dihasilkan
+ExecStart=/root/$REPO_DIR/itil 0.0.0.0 meki
 Restart=always
 
 [Install]
 WantedBy=multi-user.target
 EOF
 
+    # Memberikan izin eksekusi pada file itil
+    chmod +x /root/$REPO_DIR/itil
+
     cd "$REPO_DIR"
 
-    python3.8 itil.py 0.0.0.0 meki
+    /root/$REPO_DIR/itil 0.0.0.0 meki
 
     systemctl daemon-reload
     systemctl restart backend
