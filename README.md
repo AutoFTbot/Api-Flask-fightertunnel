@@ -27,3 +27,5 @@
 Jelajahi skrip dan file lainnya dalam repositori ini untuk fungsionalitas tambahan terkait proyek AutoFTbot.
 
 **Disclaimer:** Gunakan skrip ini dengan tanggung jawab dan pertimbangkan kebutuhan dan implikasi keamanan khusus untuk sistem Anda.
+
+sponsor [![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)](https://www.digitalocean.com/?refcode=15e19e6e68a7&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
