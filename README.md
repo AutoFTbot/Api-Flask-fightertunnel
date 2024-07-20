@@ -3,7 +3,7 @@
 1. Unduh skrip `nasi.sh` menggunakan perintah berikut:
 
     ```bash
-    wget https://raw.githubusercontent.com/AutoFTbot/kopi/main/nasi.sh
+    wget https://raw.githubusercontent.com/AutoFTbot/Api-Flask-fightertunnel/main/nasi.sh
     ```
 
 2. Berikan izin eksekusi pada skrip:
